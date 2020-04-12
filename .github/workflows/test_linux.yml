@@ -16,6 +16,7 @@ jobs:
       with:
         fetch-depth: 1
         submodules: true
+        ref: refs/heads/C++17
     - name: make
       run: make
     - name: make test
