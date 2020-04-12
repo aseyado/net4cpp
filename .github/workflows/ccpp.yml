@@ -20,4 +20,3 @@ jobs:
       run: make
     - name: make test
       run: make test
-
